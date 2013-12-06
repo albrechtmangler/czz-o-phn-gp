@@ -1,3 +1,4 @@
+
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/game_controllers/memo.js"></script>
         <link type="text/css" rel="stylesheet" media="all" href="css/memo.css" />
@@ -21,7 +22,7 @@
         			{img: "images/memo/07.png", link: ""},
         			{img: "images/memo/08.png", link: ""}],
         		header_text : "",
-        		buttons_menu : [{label: "Spiel starten", action: "startGame()"}],
+        		buttons_menu : [{label: "", action: "startGame()"}],
         		startmenu_text: "",
         };
         </script>

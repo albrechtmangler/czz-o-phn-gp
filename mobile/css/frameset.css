@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    font-family: "Arial", "Verdana", sans-serif;
+    font-size: 13px;
+    color: #686060;
+}
+
+.button {
+    display: block;
+    float: left;
+    background: #fff;
+    width: 90%;
+    margin: 10px 5% 15px 5%;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    color: #888888 !important;
+}
+
+a img  { 
+   border-style: none; 
+   text-decoration: none; 
+}
+
+a:link,
+a:visited {
+    color: #444;
+    text-decoration: underline;
+}
+
+.heading {
+    color: #6f6e61;
+}
+
+body.home .wrapper, body.game .wrapper, body.share .wrapper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: #e0bdbc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e0bdbc 10%, #bed2d4 25%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,#706e61), color-stop(25%,#afa183)); /* Chrome,Safari4+ */
+    /* background: -webkit-linear-gradient(top,  #e0bdbc 10%,#bed2d4 25%); */ /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e0bdbc 0%,#bed2d4 80%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e0bdbc 0%,#bed2d4 80%); /* IE10+ */
+    /* background: linear-gradient(to bottom,  #e0bdbc 10%,#bed2d4 25%); */ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0bdbc', endColorstr='#bed2d4',GradientType=0 ); /* IE6-9 */
+
+}
+
+.header {
+    float: left;
+    width: 90%;
+    padding: 10px 5%;
+    height: auto;
+    font-size: 140%;
+}
+
+.header h1.heading {
+    text-transform: uppercase;
+    font-family: arial;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 1.55em;
+    color: white;
+}
+
+.header h1.subhead {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-family: arial;
+    text-align: left;
+    font-size: 0.9em;
+    color: white;
+}
+
+.subHeader h2.heading {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 160%;
+    color: white !important;
+}
+
+.subHeader h2.gewinnspiel {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 135%;
+    font-weight: inherit;
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.subHeader {
+    float: left;
+    width: 100%;
+}
+
+.content {
+    height: auto;
+    float: left;
+    width: 91.5%;
+    padding: 0px 3%;
+}
+
+body.home .content {
+    background: #fff;
+    width: 94%;
+    margin: 0px;
+    min-height: 400px;
+}
+
+.content h3.heading {
+    font-size: 2.3em;
+    margin: 0px auto 10px 6px;
+}
+
+.Author {
+    font-size: 120%;
+    margin-left: 2%;
+    margin-top: 7%;
+}
+
+.text{
+    font-size: 120%;
+}
+
+.content .bookIntro .text {
+    width: 48%;
+    min-height: 290px;
+    float: left;
+    margin: 0px 1%;
+}
+
+.content .bookIntro .bookCover {
+    width: 48%;
+    margin: 0px 1%;
+    height: auto;
+}
+
+.content .bookIntro .bookBtn {
+    display: block;
+    width: 44%;
+    background: #6f6e61;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px 0px;
+    margin-right: 3%;
+    border-radius: 5px;
+}
+
+.content .bookIntro .bookPrice {
+    display: block;
+    width: 100%;
+    float: left;
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .content.home {
+        min-height: 400px;
+        }
+    }
+    
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    }
+    
+    
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 767px) and (max-width: 1024px) {
+        #bdmemorygame .button.startBtn {
+            padding-top: 7% !important;
+            margin-top: 33% !important;
+        }
+    }

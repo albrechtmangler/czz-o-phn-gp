@@ -8,7 +8,7 @@ var params = {};
 var gameOverPage = '../index.html';
 
 function createButton(label, func){
-	$(".menu", $(memorygamediv)).append('<a href="javascript: ' + func + '" class="button">' + label + '</a>');
+	$(".menu", $(memorygamediv)).append('<a href="javascript: ' + func + '" class="button startBtn">Starte das Spiel!</a>');
 }
 
 function clearMenu(){
@@ -218,9 +218,7 @@ function openCard() {
 
             if (found == options.hor * options.vert / 2) {
                 // fills the form fields according to the result and sends the form
-            	$('#gameResult').attr('value', 'win');
-            	$('.signs_1st').addClass('active1');
-            	$('.gameResultForm').submit();          	
+            	$('.appNavigator').submit();          	
             }
     	}
     }

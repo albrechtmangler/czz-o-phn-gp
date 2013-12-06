@@ -1,0 +1,85 @@
+.menu a[href$="javascript: displayHighscore()"] {
+    display: inline;
+}
+
+#bdmemorygame {
+
+}
+
+#bdmemorygame .memory_text {
+}
+
+#bdmemorygame .menu {
+}
+
+#bdmemorygame .button {
+    position: absolute;
+    top: 200px;
+    margin-left: 120px;
+    display: block;
+    background: rgba(255,255,255,0.5);
+    width: 420px;
+    height: 20px;
+    padding: 200px 0;
+    z-index: 100;
+    text-align: center;
+}
+
+#bdmemorygame .button:hover {
+}
+
+#bdmemorygame .memorycards {
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 15%;
+    height: 410px;
+}
+
+#bdmemorygame table {
+    float: none;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#bdmemorygame .card {
+    width: 95px;
+    height: 95px;
+    float: left;
+    background-color: #031c44;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    overflow:hidden;
+    text-align:center;
+    margin: 1px;
+    padding: 0px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#bdmemorygame .clickable:hover {
+    cursor: pointer;
+}
+
+#bdmemorygame .card img {
+    border: none;
+    z-index: 3;
+}
+
+#bdmemorygame .opacity {
+    opacity: .6;
+    filter: alpha(opacity=60);
+}
+
+#bdmemorygame .hide {
+    display: none;
+}
+
+#bdmemorygame .highscore {
+}
+
+#bdmemorygame .text{
+}
+
+#bdmemorygame .footer {
+}
